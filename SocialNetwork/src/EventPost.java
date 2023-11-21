@@ -7,6 +7,7 @@ public class EventPost {
     private int pages;
     private int likes;
     private ArrayList<String> comments;
+    private ArrayList<EventPost> events;
 
     public EventPost(String author, String text) {
 
