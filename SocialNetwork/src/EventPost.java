@@ -28,4 +28,22 @@ public class EventPost {
     public long getTimeStamp() {
         return timestamp;
     }
+
+    private String timeString() {
+
+        long current = System.currentTimeMillis();
+        long pastMillis = current - timestamp;
+        long seconds = pastMillis/1000;
+        long minutes = seconds/60;
+        long hours = minutes/60;
+        if (minutes > 0) {
+            return minutes + " minutes ago";
+        } else if(hours > 0){
+            return hours + " hours ago";
+        } else {
+            return "a few seconds ago";
+        }
+
+    }
+
 }
