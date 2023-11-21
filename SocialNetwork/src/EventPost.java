@@ -17,4 +17,15 @@ public class EventPost {
         comments = new ArrayList<>();
     }
 
+    public void addComment(String text) {
+        comments.add(text);
+    }
+
+    public String getImageFile() {
+        return filename;
+    }
+
+    public long getTimeStamp() {
+        return timestamp;
+    }
 }
