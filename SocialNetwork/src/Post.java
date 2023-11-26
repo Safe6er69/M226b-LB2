@@ -1,3 +1,5 @@
+import java.util.Arraylist;
+
 public abstract class Post {
 
     private String username;
