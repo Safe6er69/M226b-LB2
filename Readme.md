@@ -7,7 +7,7 @@ Polymorphismus
    Nennen Sie die Hauptprobleme bei diesem Ansatz:
 
 1. Es muss jedes Code einzeln kopiert und gepastet werden
-2. Es gibt redundante Daten an, welches sorgt, dass der Code unübersichtig macht
+2. Es gibt redundante Daten an, welches sorgt, dass der Code unübersichtlich ist.
 3. Was bei einen Objekt benötigt wird, kann bei einen anderen Objekt überflüssig sein
 
 Abstrakte Klassen
