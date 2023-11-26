@@ -8,7 +8,7 @@ import java.util.ArrayList;
  *
  */
 
-public class PhotoPost {
+public class PhotoPost extends Post{
 	
 	
 	private String username;
