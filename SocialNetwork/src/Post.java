@@ -22,12 +22,19 @@ public abstract class Post {
         comments.add(text);
     }
 
-    public String getImageFile() {
-        return filename;
-    }
-
     public long getTimeStamp() {
         return timestamp;
+    }
+
+    public void like() {
+        likes++;
+    }
+
+
+    public void unlike() {
+        if (likes > 0){
+            likes--;
+        }
     }
 
     private String timeString() {

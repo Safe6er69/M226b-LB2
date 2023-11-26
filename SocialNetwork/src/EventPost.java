@@ -33,10 +33,6 @@ public class EventPost {
         comments.add(text);
     }
 
-    public String getImageFile() {
-        return filename;
-    }
-
     public long getTimeStamp() {
         return timestamp;
     }
