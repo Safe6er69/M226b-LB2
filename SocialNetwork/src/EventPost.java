@@ -37,6 +37,24 @@ public class EventPost {
         return timestamp;
     }
 
+    public void display() {
+
+        System.out.println("Username " + username);
+        System.out.println("Posted " + timeString());
+
+        if (likes > 0) {
+            System.out.println(likes + " people like this.");
+        } else {
+            System.out.println();
+        }
+        if (comments.isEmpty()) {
+            System.out.println("No Comments yet...");
+
+        } else {
+            System.out.println("   " + comments.size() + " comment(s). Press C to view");
+        }
+    }
+
     private String timeString() {
 
         long current = System.currentTimeMillis();
