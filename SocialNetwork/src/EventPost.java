@@ -18,6 +18,17 @@ public class EventPost {
         comments = new ArrayList<>();
     }
 
+    public void like() {
+        likes++;
+    }
+
+
+    public void unlike() {
+        if (likes > 0){
+            likes--;
+        }
+    }
+
     public void addComment(String text) {
         comments.add(text);
     }
