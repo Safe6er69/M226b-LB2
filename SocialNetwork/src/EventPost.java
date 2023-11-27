@@ -1,6 +1,6 @@
 import java.util.Arraylist;
 
-public class EventPost extends Post{
+public class EventPost extends Post
 
     private String author;
     private long timeStamp;

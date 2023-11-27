@@ -10,7 +10,7 @@ import java.util.ArrayList;
  */
 
 
-public class MessagePost extends Post{
+public class MessagePost extends Post {
 	
 	private String username;
 	private String message;
