@@ -7,7 +7,7 @@ public abstract class Post {
     private int likes;
     private ArrayList<String> comments;
 
-    public EventPost(String author, String text) {
+    public Post(String author, String text) {
 
         username= author;
         message = text;
