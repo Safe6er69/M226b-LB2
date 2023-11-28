@@ -16,13 +16,8 @@ public class NewsFeed {
 	
 	public void show() {
 		
-		for(MessagePost message : messages) {
-			message.display();
-			System.out.println();
-		}
-		
-		for(PhotoPost photo : photos) {
-			photo.display();
+		for(Post post : posts) {
+			post.display();
 			System.out.println();
 		}
 		
