@@ -2,7 +2,7 @@ package org.models;
 
 import java.util.ArrayList;
 
-public class EventPost extends Post{
+public class EventPost extends Post {
     private int pages;
 
     /**
