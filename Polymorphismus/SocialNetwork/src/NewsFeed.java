@@ -3,14 +3,12 @@ import java.util.ArrayList;
 public class NewsFeed {
 	
 	
-	private ArrayList<MessagePost> messages;
-	private ArrayList<PhotoPost> photos;
+	private ArrayList<Post> posts;
 	
 	
 	public NewsFeed() {
 		
-		messages = new ArrayList<>();
-		photos = new ArrayList<>();
+		posts = new ArrayList<>();
 	}
 
 
