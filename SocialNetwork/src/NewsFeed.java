@@ -12,15 +12,9 @@ public class NewsFeed {
 		messages = new ArrayList<>();
 		photos = new ArrayList<>();
 	}
-	
-	
-	public void addMessagePost(MessagePost message) {
-		messages.add(message);
-	}
-	
-	public void addPhotoPost(PhotoPost photo) {
-		photos.add(photo);
-	}
+
+
+	public void addPost(Post newpost) { posts.add(newpost); }
 	
 	public void show() {
 		
