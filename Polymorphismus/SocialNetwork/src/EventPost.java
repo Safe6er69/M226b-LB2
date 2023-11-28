@@ -1,5 +1,3 @@
-package org.models;
-
 import java.util.ArrayList;
 
 public class EventPost extends Post {
