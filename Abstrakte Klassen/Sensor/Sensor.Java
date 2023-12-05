@@ -1,6 +1,6 @@
 public abstract class Sensor {
 
-    private String Name;
+    Sensor getUnit(String "Celcius");
 
 
 
