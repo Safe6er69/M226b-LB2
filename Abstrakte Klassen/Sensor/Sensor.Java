@@ -18,4 +18,5 @@ public abstract class Sensor {
         return name;
     }
 
+    public void doMeasurement();
 }
