@@ -1,6 +1,11 @@
 public abstract class Sensor {
 
-    Sensor getUnit(String "Celcius");
+    public Measurement(String unit) {
+        this.unit = unit;
+
+    public String getUnit() {
+        return unit;
+    }
 
 
 
