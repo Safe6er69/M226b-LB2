@@ -1,3 +1,5 @@
+public class CsvWriter{
+
 private Sensor sensor;
 private long interval; // Zeitintervall in Millisekunden
 private String fileName;
@@ -36,4 +38,4 @@ public void run() {
         } catch (IOException | InterruptedException e) {
         e.printStackTrace();
         }
-        }
+}
