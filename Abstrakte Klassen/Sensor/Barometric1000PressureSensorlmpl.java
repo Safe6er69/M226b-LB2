@@ -1,4 +1,4 @@
-public class Barometric1000OressureSensorlmpl extends PressureSensor{
+public class Barometric1000OressureSensorImpl extends PressureSensor{
 
     public void doMeasurement() {
         double max = 1.05;
