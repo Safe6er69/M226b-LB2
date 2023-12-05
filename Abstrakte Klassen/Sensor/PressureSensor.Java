@@ -5,5 +5,5 @@ public abstract class PressureSensor extends Sensor {
 
     public double getValue() { return measurementValue}
 
-    public String getUnit() {return unit}
+    public String getUnit() { return unit }
 }
