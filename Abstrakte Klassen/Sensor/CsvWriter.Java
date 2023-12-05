@@ -1,4 +1,4 @@
-public class CsvWriter{
+public class CsvWriter {
 
 private Sensor sensor;
 private long interval; // Zeitintervall in Millisekunden
