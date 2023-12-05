@@ -1,5 +1,8 @@
 public class Barometric1000OressureSensorlmpl extends PressureSensor{
 
     public void doMeasurement() {
-        double measurementValue = 0.5 + Math.random() * 0.55;
+        double max = 1.05;
+        double min = 0.5;
+        double range = max - min;
+        measurementValue = (Math.random() * range) + min;
         }
