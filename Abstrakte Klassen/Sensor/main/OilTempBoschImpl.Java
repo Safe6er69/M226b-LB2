@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 public class OilTempBoschImpl extends TemperaturSensor{
 
     public void doMeasurement() {

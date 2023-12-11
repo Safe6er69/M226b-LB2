@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 public class Barometric1000OressureSensorImpl extends PressureSensor{
 
     public void doMeasurement() {

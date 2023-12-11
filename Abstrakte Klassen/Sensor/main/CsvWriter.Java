@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 public class CsvWriter {
 
 private Sensor sensor;

@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 public abstract class TemperaturSensor extends Sensor {
 
     private String unit;

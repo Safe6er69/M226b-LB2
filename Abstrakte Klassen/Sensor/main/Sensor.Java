@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 public abstract class Sensor {
 
     public Sensor(String unit, double value, String name) {
