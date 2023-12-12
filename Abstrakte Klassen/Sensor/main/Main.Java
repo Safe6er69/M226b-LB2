@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
         // Beispiel-Nutzung der CsvWriter-Klasse
         Sensor sensor = new Sensor(){
