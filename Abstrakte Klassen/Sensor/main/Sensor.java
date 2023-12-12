@@ -5,7 +5,7 @@ public abstract class Sensor {
 
     private String name;
 
-    public Sensor() {
+    public Sensor(String name, double value, String unit) {
         this.unit = unit;
         this.value = value;
         this.name = name;
