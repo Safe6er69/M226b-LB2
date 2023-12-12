@@ -20,5 +20,5 @@ public abstract class Sensor {
         return name;
     }
 
-    public void doMeasurement();
+    public abstract void doMeasurement();
 }
