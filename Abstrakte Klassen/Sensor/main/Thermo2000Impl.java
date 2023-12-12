@@ -4,7 +4,7 @@ public class Thermo2000Impl extends TemperaturSensor{
         super(unit, value, name);
     }
 
-    public double doMeasurement() {
+    public void doMeasurement() {
         double max = 1.05;
         double min = 0.5;
         double range = max - min;

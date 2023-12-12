@@ -4,7 +4,7 @@ public abstract class TemperaturSensor extends Sensor {
     protected double measurementValue = 69;
 
     public TemperaturSensor(String unit, double value, String name){
-        super(name, value, unit);
+        super();
 
     }
 

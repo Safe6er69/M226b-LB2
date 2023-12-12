@@ -4,7 +4,7 @@ public class Aqualung2021ProDivePressureSensorImpl extends PressureSensor{
         super(unit, value, name);
     }
 
-    public double doMeasurement() {
+    public void doMeasurement() {
         double max = 10;
         double min = 0;
         double range = max - min;
