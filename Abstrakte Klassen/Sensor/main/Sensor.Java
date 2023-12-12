@@ -1,9 +1,9 @@
 public abstract class Sensor {
 
-    private final String unit;
-    private final double value;
+    private String unit;
+    private double value;
 
-    private final String name;
+    private String name;
 
     public Sensor() {
         this.unit = unit;
