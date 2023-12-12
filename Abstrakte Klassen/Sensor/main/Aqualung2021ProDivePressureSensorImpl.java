@@ -4,11 +4,12 @@ public class Aqualung2021ProDivePressureSensorImpl extends PressureSensor{
         super(unit, value, name);
     }
 
-    public void doMeasurement() {
+    public double doMeasurement() {
         double max = 10;
         double min = 0;
         double range = max - min;
         measurementValue = (Math.random() * range) + min;
+        return max;
     }
 
 }

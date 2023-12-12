@@ -3,8 +3,9 @@ public class Main {
         // Beispiel-Nutzung der CsvWriter-Klasse
         Sensor sensor = new Sensor() {
             @Override
-            public void doMeasurement() {
+            public double doMeasurement() {
 
+                return 0;
             }
         }; // Beispiel-Sensor
         long interval = 2000; // Beispiel-Intervall: 5 Sekunden
