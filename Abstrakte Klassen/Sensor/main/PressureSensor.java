@@ -4,7 +4,7 @@ public abstract class PressureSensor extends Sensor {
     protected double measurementValue = 69;
 
     public PressureSensor(String unit, double value, String name) {
-        super();
+        super(unit, value, name);
     }
 
     public double getValue() { return measurementValue; }
