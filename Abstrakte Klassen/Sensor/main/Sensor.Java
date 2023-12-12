@@ -8,6 +8,10 @@ public abstract class Sensor {
         this.name = name;
     }
 
+    public Sensor() {
+
+    }
+
     public String getUnit() {
         return unit;
     }
