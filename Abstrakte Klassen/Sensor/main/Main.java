@@ -4,8 +4,6 @@ public class Main {
         Sensor sensor = new Sensor() {
             @Override
             public double doMeasurement() {
-
-                return 0;
             }
         }; // Beispiel-Sensor
         long interval = 2000; // Beispiel-Intervall: 5 Sekunden
