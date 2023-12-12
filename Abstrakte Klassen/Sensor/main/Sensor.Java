@@ -1,15 +1,14 @@
-import org.junit.Test;
-
 public abstract class Sensor {
+
+    private final String unit;
+    private final double value;
+
+    private final String name;
 
     public Sensor(String unit, double value, String name) {
         this.unit = unit;
         this.value = value;
         this.name = name;
-    }
-
-    public Sensor() {
-
     }
 
     public String getUnit() {
@@ -24,5 +23,5 @@ public abstract class Sensor {
         return name;
     }
 
-    public abstract void doMeasurement();
+    public abstract double doMeasurement();
 }
