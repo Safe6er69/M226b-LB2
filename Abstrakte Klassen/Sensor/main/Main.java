@@ -14,5 +14,4 @@ public class Main {
         CsvWriter csvWriter = new CsvWriter(sensor, interval, fileName);
         csvWriter.run();
     }
-
 }
