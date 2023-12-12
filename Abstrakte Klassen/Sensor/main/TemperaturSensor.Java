@@ -9,8 +9,8 @@ public abstract class TemperaturSensor extends Sensor {
         super(unit, value, name);
     }
 
-    public double getValue() { return measurementValue}
+    public double getValue() { return measurementValue; }
 
-    public String getUnit() { return unit }
+    public String getUnit() { return unit; }
 
 }

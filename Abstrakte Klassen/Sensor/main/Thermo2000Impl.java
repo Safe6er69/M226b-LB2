@@ -2,6 +2,10 @@ import org.junit.Test;
 
 public class Thermo2000Impl extends TemperaturSensor{
 
+    public Thermo2000Impl(String unit, double value, String name) {
+        super(unit, value, name);
+    }
+
     public void doMeasurement() {
         double max = 1.05;
         double min = 0.5;
