@@ -4,7 +4,12 @@ public class Main{
 
     public static void main(String[] args) {
         // Beispiel-Nutzung der CsvWriter-Klasse
-        Sensor sensor = new Sensor(); // Beispiel-Sensor
+        Sensor sensor = new Sensor() {
+            @Override
+            public void doMeasurement() {
+
+            }
+        }; // Beispiel-Sensor
         long interval = 5000; // Beispiel-Intervall: 5 Sekunden
         String fileName = "sensor_data.csv"; // Beispiel-Dateiname
 

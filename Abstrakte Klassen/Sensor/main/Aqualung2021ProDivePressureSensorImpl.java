@@ -2,6 +2,10 @@ import org.junit.Test;
 
 public class Aqualung2021ProDivePressureSensorImpl extends PressureSensor{
 
+    public Aqualung2021ProDivePressureSensorImpl(String unit, double value, String name) {
+        super(unit, value, name);
+    }
+
     public void doMeasurement() {
         double max = 10;
         double min = 0;
