@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Beispiel-Nutzung der CsvWriter-Klasse
-        Sensor sensor = new Sensor("ExampleSensor", 2000, "Unit") {
+        Sensor sensor = new Sensor("ExampleSensor", 2000, "Celcius") {
             @Override
             public double doMeasurement() {
                 return getValue();
