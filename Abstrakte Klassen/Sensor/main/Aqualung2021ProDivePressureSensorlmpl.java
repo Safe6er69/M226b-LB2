@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 public class Aqualung2021ProDivePressureSensorImpl extends PressureSensor{
 
     public void doMeasurement() {

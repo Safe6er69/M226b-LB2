@@ -1,4 +1,6 @@
-public class Barometric1000OressureSensorImpl extends PressureSensor {
+import org.junit.Test;
+
+public class OilTempBoschImpl extends TemperaturSensor{
 
     public void doMeasurement() {
         double max = 1.05;
@@ -6,4 +8,5 @@ public class Barometric1000OressureSensorImpl extends PressureSensor {
         double range = max - min;
         measurementValue = (Math.random() * range) + min;
     }
+
 }
