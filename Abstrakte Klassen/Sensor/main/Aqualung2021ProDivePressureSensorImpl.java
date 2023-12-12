@@ -9,7 +9,6 @@ public class Aqualung2021ProDivePressureSensorImpl extends PressureSensor{
         double min = 0;
         double range = max - min;
         measurementValue = (Math.random() * range) + min;
-        return max;
     }
 
 }
