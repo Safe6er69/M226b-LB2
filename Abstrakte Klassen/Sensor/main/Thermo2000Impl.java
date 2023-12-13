@@ -9,6 +9,6 @@ public class Thermo2000Impl extends TemperaturSensor{
         double min = 0.5;
         double range = max - min;
         measurementValue = (Math.random() * range) + min;
-        return max;
+        return measurementValue;
     }
 }

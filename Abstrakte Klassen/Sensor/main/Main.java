@@ -1,12 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Beispiel-Nutzung der CsvWriter-Klasse
-        Sensor sensor = new Sensor("ExampleSensor", 2000, "Celcius") {
-            @Override
-            public double doMeasurement() {
-                return getValue();
-            }
-        };// Beispiel-Sensor
+        Sensor sensor = new Thermo2000Impl("Celcius", 2000, "Temparatur");// Beispiel-Sensor
 
         long interval = 2000; // Beispiel-Intervall: 5 Sekunden
         String fileName = "sensor_data.csv"; // Beispiel-Dateiname
